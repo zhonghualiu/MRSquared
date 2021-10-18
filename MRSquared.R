@@ -3,7 +3,7 @@
 ## depends on the AER package 
 library(AER)
 
-MR = function(Y,A,G.mat,k=5){
+MRSq = function(Y,A,G.mat,k=5){
   G.hat<- apply(G.mat,2,mean) ## MAF
   ## Generate Z, the new IV matrix 
   K = dim(G.mat)[2]
