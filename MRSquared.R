@@ -41,6 +41,6 @@ MRSq = function(Y,A,G.mat,k=5){
   print("The Z matrix created!, running regressions")
   tsls.out <- summary(ivreg(Y ~ A | Z), vcov = sandwich,diagnostics = F)    
   print(tsls.out)
-  #est <- c(tsls.out$coef[2,1], tsls.out$coef[2,2])
+  est <- c(tsls.out$coef[2,1], tsls.out$coef[2,2])
   return(est)
 }
