@@ -1,6 +1,7 @@
 ### Input: continuous outcome Y, continuous exposure A, n by K binary SNP matrix
-### ouptput: point estimate and SE
+### ouptput: point estimate of causal effect of A on Y and standard error
 ## depends on the AER package 
+
 library(AER)
 
 MRSq = function(Y,A,G.mat,k=5){
