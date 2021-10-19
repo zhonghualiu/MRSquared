@@ -4,17 +4,18 @@ This R package performs multiply robust Mendelian randomization analysis with ma
 ## Setup
 Use the following command in R to install the package:
 ```
-install.package("MRSquared")
+library(devtools)
+devtools::install_github("https://github.com/zhonghualiu/MRSquared")
 ```
 
 ## Arguments
-- `Y` length n continuous outcome vector
-- `A` length n continuous exposure vector
-- `G.mat` n by K binary SNP matrix
-- `k` 2<=k<=K, the number of valid IVs
+- `Y` a continuous outcome vector of length n
+- `A` a continuous exposure vector of length n
+- `G.mat` a n by K binary SNP matrix
+- `k` 1<=k<=K, the number of valid IVs
 
 ## Return
-Point estimate of causal effect of A on Y and standard error.
+The point estimate of the causal effect of A on Y and standard error.
 
 ## Example
 ```
