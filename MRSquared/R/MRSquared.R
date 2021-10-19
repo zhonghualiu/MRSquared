@@ -3,7 +3,7 @@
 #' @param Y length n continuous outcome vector
 #' @param A length n continuous exposure vector
 #' @param G.mat n by K binary SNP matrix
-#' @param k 2<=k<=K, the number of valid IVs
+#' @param k 1<=k<=K, the number of valid IVs
 #'
 #' @return Point estimate of causal effect of A on Y and standard error
 #'
