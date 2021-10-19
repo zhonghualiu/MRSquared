@@ -13,7 +13,7 @@ MRSq(Y, A, G.mat, k = 5)
 
 \item{G.mat}{n by K binary SNP matrix}
 
-\item{k}{2<=k<=K, the number of valid IVs}
+\item{k}{1<=k<=K, the number of valid IVs}
 }
 \value{
 Point estimate of causal effect of A on Y and standard error
