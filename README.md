@@ -1,4 +1,4 @@
-# MR-Squared
+# MRSquared
 This R package performs multiply robust Mendelian randomization analysis with many invalid instruments.
 
 ## Setup
